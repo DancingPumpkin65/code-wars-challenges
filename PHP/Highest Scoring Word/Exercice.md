@@ -12,9 +12,7 @@ If two words score the same, return the word that appears earliest in the origin
 
 All letters will be lowercase and all inputs will be valid.
 
-## Solution
-
-Here's a PHP function `highestScoringWord` to find the highest scoring word:
+### Function Structure:
 
 ```php
 function high($x) {
