@@ -1,4 +1,4 @@
-### DNA Complement
+# DNA Complement
 
 #### Description:
 
@@ -16,4 +16,9 @@ Input: "GTAT"
 Output: "CATA"
 ```
 
-#### Instructions:
+### Function Structure:
+
+```php
+function DNA_strand($dna) {
+  // Code goes here
+}
