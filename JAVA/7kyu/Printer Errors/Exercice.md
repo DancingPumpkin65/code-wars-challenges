@@ -1,7 +1,3 @@
-Here is a structured README for your exercise:
-
----
-
 # Printer Error Rate
 
 In a factory, a printer prints labels for boxes. The printer uses colors represented by letters from **a to m**. A **good control string** contains only these letters, while a **bad control string** contains letters outside this range, indicating potential issues like lack of colors or technical malfunctions.
@@ -17,25 +13,21 @@ Write a function `printer_error` that takes a string `s` and returns the error r
 
 ### Examples:
 
-1. **Input**: `"aaabbbbhaijjjm"`  
-   **Output**: `"0/14"`  
-   Explanation: All characters are valid (a to m), so the error rate is 0.
+```plaintext
+Input: "aaabbbbhaijjjm"  
+Output: "0/14"  
+Explanation: All characters are valid (a to m), so the error rate is 0.
 
-2. **Input**: `"aaaxbbbbyyhwawiwjjjwwm"`  
-   **Output**: `"8/22"`  
-   Explanation: There are 8 invalid characters (`x`, `y`, `h`, `w`, `w`, `w`, `w`, `w`), so the error rate is 8 errors out of 22 characters.
+Input: "aaaxbbbbyyhwawiwjjjwwm"  
+Output: "8/22"  
+Explanation: There are 8 invalid characters (`x`, `y`, `h`, `w`, `w`, `w`, `w`, `w`), so the error rate is 8 errors out of 22 characters.
+```
 
 ### Notes:
 
 - The input string `s` has a length greater than or equal to 1.
 - The string contains only lowercase English letters.
 - The valid characters are limited to `a to m`, so characters outside this range are considered errors.
-
-```plaintext
-The input string `s` has a length greater than or equal to 1.
-The string contains only lowercase English letters.
-The valid characters are limited to `a to m`, so characters outside this range are considered errors.
-```
 
 ### Function Structure:
 
