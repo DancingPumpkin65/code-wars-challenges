@@ -10,9 +10,7 @@ Given two positive integers \( n \) and \( p \), we want to find a positive inte
 
 In other words, writing the consecutive digits of \( n \) as \( a, b, c, d, \dots \), is there an integer \( k \) such that:
 
-\[
-a^p + b^{p+1} + c^{p+2} + d^{p+3} + \dots = n \times k
-\]
+<a href="javascript:void(0)">a<sup>p</sup> + b<sup>p+1</sup> + c<sup>p+2</sup> + d<sup>p+3</sup> + ...</a> = n * k
 
 If it is the case, we will return \( k \), if not return \(-1\).
 
