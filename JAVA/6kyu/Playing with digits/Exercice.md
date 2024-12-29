@@ -16,7 +16,7 @@ If it is the case, we will return \( k \), if not return \(-1\).
 
 ### Examples:
 
-- `n = 89; p = 1 ---> 1` since \( 8^1 + 9^2 = 89 = 89 \times 1 \)
+- `n = 89; p = 1 ---> 1` since 8<sup>1</sup> + 9<sup>2</sup> = 89 = 89 * 1
 - `n = 92; p = 1 ---> -1` since there is no \( k \) such that \( 9^1 + 2^2 \) equals \( 92 \times k \)
 - `n = 695; p = 2 ---> 2` since \( 6^2 + 9^3 + 5^4 = 1390 = 695 \times 2 \)
 - `n = 46288; p = 3 ---> 51` since \( 4^3 + 6^4 + 2^5 + 8^6 + 8^7 = 2360688 = 46288 \times 51 \)
