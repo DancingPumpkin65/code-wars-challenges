@@ -16,10 +16,9 @@ Given a string, detect whether or not it is a pangram. Return `True` if it is, `
 
 ### Function Structure:
 
-```java
+```php
 public class PangramChecker {
-  public boolean check(String sentence) {
-    // your code
+  public boolean check(String sentence){
     return false;
   }
 }
