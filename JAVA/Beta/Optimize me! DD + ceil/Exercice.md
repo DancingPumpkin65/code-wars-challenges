@@ -14,14 +14,32 @@ The challenge is to optimize a poorly coded solution. If your solution matches t
 
 ### Examples:
 
-- **Input**: `"0"`  
-  **Output**: `"0.00"`
+Input
+```plaintext
+0
+```
+Output
+```plaintext
+0.00
+```
 
-- **Input**: `null`  
-  **Output**: `"0.00"`
+Input
+```plaintext
+null
+```
+Output
+```plaintext
+0.00
+```
 
-- **Input**: `"0.005"`  
-  **Output**: `"0.01"`
+Input
+```plaintext
+0.005
+```
+Output
+```plaintext
+0.01
+```
 
 ### Notes:
 - The input will always be a string representing a number or `null`.

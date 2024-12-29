@@ -14,13 +14,11 @@ Write a function `printer_error` that takes a string `s` and returns the error r
 ### Examples:
 
 ```plaintext
-Input: "aaabbbbhaijjjm"  
-Output: "0/14"  
-Explanation: All characters are valid (a to m), so the error rate is 0.
+s="aaabbbbhaijjjm"
+printer_error(s) => "0/14"
 
-Input: "aaaxbbbbyyhwawiwjjjwwm"  
-Output: "8/22"  
-Explanation: There are 8 invalid characters (`x`, `y`, `h`, `w`, `w`, `w`, `w`, `w`), so the error rate is 8 errors out of 22 characters.
+s="aaaxbbbbyyhwawiwjjjwwm"
+printer_error(s) => "8/22"
 ```
 
 ### Notes:
