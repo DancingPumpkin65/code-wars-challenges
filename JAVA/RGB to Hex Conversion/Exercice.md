@@ -1,7 +1,3 @@
-Here’s the README for your exercise:
-
----
-
 # RGB to Hexadecimal Conversion
 
 The task is to complete the `rgb` function, which converts RGB decimal values to their hexadecimal representation. RGB decimal values are expected to be in the range of **0 to 255**. Values outside this range should be rounded to the nearest valid value (e.g., 300 becomes 255, and -10 becomes 0).
@@ -12,20 +8,13 @@ The task is to complete the `rgb` function, which converts RGB decimal values to
 - The shorthand 3-character hex format (e.g., `#FFF`) is not allowed.
 - Ensure all hexadecimal letters are uppercase.
 
-### Examples:
+### Examples (input --> output):
 
 ```plaintext
-Input: 255, 255, 255  
-Output: "FFFFFF"
-
-Input: 255, 255, 300  
-Output: "FFFFFF"
-
-Input: 0, 0, 0  
-Output: "000000"
-
-Input: 148, 0, 211  
-Output: "9400D3"
+255, 255, 255 --> "FFFFFF"
+255, 255, 300 --> "FFFFFF"
+0, 0, 0       --> "000000"
+148, 0, 211   --> "9400D3"
 ```
 
 ### Notes:
@@ -51,7 +40,3 @@ public class RgbToHex {
 ### Constraints:
 
 - Inputs will always be integers.
-
----
-
-This README is designed to provide clear instructions for completing the `rgb` function.

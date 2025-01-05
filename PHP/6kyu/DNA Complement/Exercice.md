@@ -23,6 +23,6 @@ Output: "CATA"
 ### Function Structure:
 
 ```php
-function DNA_strand($dna) {
+function dna_strand($dna) {
   // Code goes here
 }

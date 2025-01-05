@@ -1,3 +1,4 @@
+<?php
 function detect_pangram($string) {
     $lowerString = strtolower($string);
     foreach (range('a', 'z') as $letter) {
@@ -7,3 +8,4 @@ function detect_pangram($string) {
     }
     return true;
 }
+?>

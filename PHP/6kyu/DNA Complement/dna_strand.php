@@ -1,5 +1,5 @@
 <?php
-function DNA_strand($dna) {
+function dna_strand($dna) {
     // Convert the DNA string into an array of characters
     $dna0 = str_split($dna);
     
