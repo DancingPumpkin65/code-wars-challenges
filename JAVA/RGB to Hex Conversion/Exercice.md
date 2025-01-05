@@ -2,13 +2,15 @@
 
 The task is to complete the `rgb` function, which converts RGB decimal values to their hexadecimal representation. RGB decimal values are expected to be in the range of **0 to 255**. Values outside this range should be rounded to the nearest valid value (e.g., 300 becomes 255, and -10 becomes 0).
 
-### Requirements:
+## Requirements:
 
 - The output should always be a 6-character long hexadecimal string.
 - The shorthand 3-character hex format (e.g., `#FFF`) is not allowed.
 - Ensure all hexadecimal letters are uppercase.
 
-### Examples (input --> output):
+---
+
+## Examples (input --> output):
 
 ```plaintext
 255, 255, 255 --> "FFFFFF"
@@ -25,7 +27,9 @@ The task is to complete the `rgb` function, which converts RGB decimal values to
    - Decimal `255` should be `FF`.
    - Decimal `148` should be `94`.
 
-### Function Structure:
+---
+
+## Function Structure:
 
 ```java
 public class RgbToHex {
@@ -35,6 +39,7 @@ public class RgbToHex {
         return null;
     }
 }
+```
 
 ### Constraints:
 

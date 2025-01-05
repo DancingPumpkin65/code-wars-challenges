@@ -2,12 +2,14 @@
 
 Create a function that takes a Roman numeral as its argument and returns its value as a numeric decimal integer. You don't need to validate the form of the Roman numeral.
 
-### Roman Numerals Encoding
+## Roman Numerals Encoding
 Modern Roman numerals are written by expressing each decimal digit of the number to be encoded separately, starting with the leftmost digit and skipping any 0s. For example:
 
 - `1990` → `"MCMXC"` (1000 = M, 900 = CM, 90 = XC)
 - `2008` → `"MMVIII"` (2000 = MM, 8 = VIII)
 - `1666` → `"MDCLXVI"` (Uses each letter in descending order)
+
+---
 
 ## Examples:
 
@@ -20,8 +22,6 @@ Modern Roman numerals are written by expressing each decimal digit of the number
 "XL"      ->   40
 "I"       ->    1
 ```
-
----
 
 ### Help:
 
@@ -37,6 +37,8 @@ M          1,000
 ```
 
 ---
+
+## Function Structure:
 
 ```python
 def solution(roman: str) -> int:

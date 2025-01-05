@@ -1,6 +1,6 @@
 # DNA Complement
 
-### Description:
+## Description:
 
 Deoxyribonucleic acid (DNA) is a chemical found in the nucleus of cells and carries the "instructions" for the development and functioning of living organisms.
 
@@ -10,7 +10,9 @@ In DNA strings, symbols "A" and "T" are complements of each other, as "C" and "G
 
 More similar exercise are found here: http://rosalind.info/problems/list-view/ (source)
 
-### Example: (input --> output)
+---
+
+## Example: (input --> output)
 
 ```plaintext
 Input: "ATTGC"
@@ -20,7 +22,9 @@ Input: "GTAT"
 Output: "CATA"
 ```
 
-### Function Structure:
+---
+
+## Function Structure:
 
 ```php
 function dna_strand($dna) {

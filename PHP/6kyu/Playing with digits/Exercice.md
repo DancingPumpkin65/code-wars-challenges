@@ -14,7 +14,9 @@ In other words, writing the consecutive digits of \( n \) as \( a, b, c, d, \dot
 
 If it is the case, we will return \( k \), if not return \(-1\).
 
-### Examples:
+---
+
+## Examples:
 
 - `n = 89; p = 1 ---> 1` since 8<sup>1</sup> + 9<sup>2</sup> = 89 = 89 * 1
 - `n = 92; p = 1 ---> -1` since there is no k such that 9<sup>1</sup> + 2<sup>2</sup> equals 92 * k
@@ -24,7 +26,9 @@ If it is the case, we will return \( k \), if not return \(-1\).
 ### Notes:
 - \( n \) and \( p \) will always be strictly positive integers.
 
-### Function Structure:
+---
+
+## Function Structure:
 
 ```php
 function digPow($n, $p) {
