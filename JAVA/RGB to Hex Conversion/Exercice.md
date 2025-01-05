@@ -9,13 +9,8 @@ The task is to complete the `rgb` function, which converts RGB decimal values to
 - Ensure all hexadecimal letters are uppercase.
 
 ### Examples (input --> output):
-### Examples (input --> output):
 
 ```plaintext
-255, 255, 255 --> "FFFFFF"
-255, 255, 300 --> "FFFFFF"
-0, 0, 0       --> "000000"
-148, 0, 211   --> "9400D3"
 255, 255, 255 --> "FFFFFF"
 255, 255, 300 --> "FFFFFF"
 0, 0, 0       --> "000000"
@@ -40,7 +35,6 @@ public class RgbToHex {
         return null;
     }
 }
-```
 
 ### Constraints:
 

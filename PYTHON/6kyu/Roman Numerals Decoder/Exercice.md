@@ -42,4 +42,3 @@ M          1,000
 def solution(roman: str) -> int:
     # complete the solution by transforming the roman numeral into an integer
     return 1
-```

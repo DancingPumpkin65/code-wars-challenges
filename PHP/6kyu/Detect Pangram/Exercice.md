@@ -32,4 +32,3 @@ Output: False
 function detect_pangram($string) { 
   #your code here
   }
-```

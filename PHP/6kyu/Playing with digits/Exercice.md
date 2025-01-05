@@ -26,12 +26,7 @@ If it is the case, we will return \( k \), if not return \(-1\).
 
 ### Function Structure:
 
-```java
-public class DigPow {
-
-	public static long digPow(int n, int p) {
-		// your code
-    return -1;
-	}
-	
+```php
+function digPow($n, $p) {
+    // Code goes here
 }

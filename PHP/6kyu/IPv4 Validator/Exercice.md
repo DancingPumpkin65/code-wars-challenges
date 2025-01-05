@@ -20,7 +20,6 @@ Examples of valid inputs:
 
 ### Function Structure:
 ```php
-function isValidIP(string $str): bool
-{
+function isValidIP(string $str): bool {
     // Code goes here
 }
