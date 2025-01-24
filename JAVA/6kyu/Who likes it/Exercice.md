@@ -8,7 +8,7 @@ Implement a function that takes an array of names (strings) representing the peo
 
 ### Examples:
 
-```
+```text
 []                                -->  "no one likes this"
 ["Peter"]                         -->  "Peter likes this"
 ["Jacob", "Alex"]                 -->  "Jacob and Alex like this"
