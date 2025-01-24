@@ -1,6 +1,5 @@
 # Format Input Data to Two Decimal Floats
 
-## Problem Description:
 You are given an input string that represents a number. Your task is to format the number into a float with exactly **two decimal places**. Additionally, you must **round the number using the round half up (ceil) method**.
 
 If the provided value is `null`, it should be treated as `0.0`.
@@ -54,7 +53,7 @@ Output
 ```java
 public class NumberFormatting{
   public static String formatValue(String data) {
-        // your code here
+        // Your code here
         return data;
     }
 }

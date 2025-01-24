@@ -1,10 +1,6 @@
 # Who Likes It?
 
-## Instructions:
-
 You probably know the "like" system from Facebook and other platforms. People can "like" blog posts, pictures, or other items. In this exercise, you will create a function that generates the display text corresponding to the list of people who like an item.
-
-## Task:
 
 Implement a function that takes an array of names (strings) representing the people who like an item. The function should return a string in the format specified below:
 
@@ -32,7 +28,7 @@ Implement a function that takes an array of names (strings) representing the peo
 ```java
 class Solution {
     public static String whoLikesIt(String... names) {
-        //Do your magic here
+        // Do your magic here
         return "";
     }
 }
