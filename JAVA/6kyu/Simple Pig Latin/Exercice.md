@@ -10,7 +10,7 @@ Write a function that transforms a string into "Pig Latin". The rules for the tr
 
 ### Examples:
 
-```javascript
+```java
 pigIt('Pig latin is cool'); // 'igPay atinlay siay oolcay'
 pigIt('Hello world !');     // 'elloHay orldway !'
 ```

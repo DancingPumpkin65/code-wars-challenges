@@ -35,7 +35,7 @@ The task is to complete the `rgb` function, which converts RGB decimal values to
 public class RgbToHex {
 
     public static String rgb(int r, int g, int b) {
-        // your code here
+        // Your code here
         return null;
     }
 }
