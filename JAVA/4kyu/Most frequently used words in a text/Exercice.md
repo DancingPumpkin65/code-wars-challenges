@@ -45,13 +45,13 @@ on Sundays, made away with three-quarters of his income."
 ## Function Structure:
 
 ```java
-    public class RomanNumerals {
- 
-        public static String toRoman(int n) {
-            return "I";
-        }
-        
-        public static int fromRoman(String romanNumeral) {
-            return 1;
-        }
+public class RomanNumerals {
+
+    public static String toRoman(int n) {
+        return "I";
     }
+    
+    public static int fromRoman(String romanNumeral) {
+        return 1;
+    }
+}

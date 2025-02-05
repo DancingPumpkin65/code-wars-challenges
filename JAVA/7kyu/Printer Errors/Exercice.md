@@ -35,9 +35,7 @@ printer_error(s) => "8/22"
 
 ```java
 public class Printer {
-    
     public static String printerError(String s) {
         // Your code here
     }
-
 }

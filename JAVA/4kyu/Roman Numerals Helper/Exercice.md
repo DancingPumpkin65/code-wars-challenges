@@ -56,13 +56,13 @@ This project provides two functions for converting between Roman numerals and in
 ## Function Structure:
 
 ```java
-    public class RomanNumerals {
- 
-        public static String toRoman(int n) {
-            return "I";
-        }
-        
-        public static int fromRoman(String romanNumeral) {
-            return 1;
-        }
+public class RomanNumerals {
+
+    public static String toRoman(int n) {
+        return "I";
     }
+    
+    public static int fromRoman(String romanNumeral) {
+        return 1;
+    }
+}

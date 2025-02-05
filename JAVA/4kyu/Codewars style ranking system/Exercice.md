@@ -51,5 +51,5 @@ user.rank; // => -7 // rank was upgraded to -7
 ## Function Structure:
 
 ```java
-    // TODO: create the User class/object
-    // it must support rank, progress, and the incProgress(int rank) method
+// TODO: create the User class/object
+// it must support rank, progress, and the incProgress(int rank) method

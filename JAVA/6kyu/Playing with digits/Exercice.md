@@ -32,10 +32,8 @@ If it is the case, we will return \( k \), if not return \(-1\).
 
 ```java
 public class DigPow {
-
 	public static long digPow(int n, int p) {
 		// Your code here
     return -1;
 	}
-	
 }
