@@ -32,6 +32,7 @@ Write a class called `User` that is used to calculate the amount that a user wil
 - If a user ranked -1 completes an activity ranked 1 they will receive 10 progress (remember, zero rank is ignored).
 
 ## Code Usage Examples:
+
 ```java
 User user = new User();
 user.rank; // => -8
