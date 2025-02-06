@@ -15,7 +15,7 @@ Write a function `printer_error` that takes a string `s` and returns the error r
 
 ## Examples:
 
-```plaintext
+```text
 s="aaabbbbhaijjjm"
 printer_error(s) => "0/14"
 

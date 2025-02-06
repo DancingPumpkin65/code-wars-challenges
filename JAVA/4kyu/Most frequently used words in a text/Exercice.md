@@ -15,7 +15,7 @@ Write a function that, given a string of text (possibly with punctuation and lin
 
 ## Examples:
 
-```plaintext
+```text
 "In a village of La Mancha, the name of which I have no desire to call to
 mind, there lived not long since one of those gentlemen that keep a lance
 in the lance-rack, an old buckler, a lean hack, and a greyhound for

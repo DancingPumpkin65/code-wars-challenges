@@ -14,7 +14,7 @@ This project provides two functions for converting between Roman numerals and in
 ## Examples:
 
 #### Converting from integer to Roman numeral (`toRoman`):
-```plaintext
+```text
 2000 -> "MM"
 1666 -> "MDCLXVI"
   86 -> "LXXXVI"
@@ -22,7 +22,7 @@ This project provides two functions for converting between Roman numerals and in
 ```
 
 #### Converting from Roman numeral to integer (`fromRoman`):
-```plaintext
+```text
 "MM"      -> 2000
 "MDCLXVI" -> 1666
 "LXXXVI"  ->   86
