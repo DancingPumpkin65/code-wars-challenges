@@ -17,29 +17,27 @@ import net.bytebuddy.agent.ByteBuddyAgent;
 public class Thief {
 
     /**
-     * Hijacks a target JVM given by its pid, retrieves the security code from the
-     * Burglary$Target class, and returns it as a String.
-     *
-     * This implementation uses a temporary file to communicate the result from the target.
+     * Hijacks a target JVM given by its pid, retrieves the security code from the Burglary$Target class, and returns it as a String x)
+     * This implementation uses a temporary file to communicate the result from the target G_G
      */
     public String guessSecurityCode(final String pid) throws Exception {
-        // Create a temporary file that the agent will write the security code into.
+        // Create a temporary file that the agent will write the security code into :D
         File tmpFile = File.createTempFile("securityCode", ".txt");
         tmpFile.deleteOnExit();
 
-        // Create the temporary agent jar file.
+        // Create the temporary agent jar file ...
         File agentJar = createAgentJar();
 
-        // Attach the agent to the target JVM, passing the temp file's path as agent arguments.
+        // Attach the agent to the target JVM, passing the temp file's path as agent arguments -_-
         ByteBuddyAgent.attach(agentJar, pid, tmpFile.getAbsolutePath());
 
-        // Wait for the agent to write the security code (up to 5 seconds).
+        // Wait for the agent to write the security code @_@
         long timeout = System.currentTimeMillis() + 5000;
         while (System.currentTimeMillis() < timeout && tmpFile.length() == 0) {
             Thread.sleep(100);
         }
 
-        // Read the code from the file.
+        // Read the code from the file :/
         String code = new String(Files.readAllBytes(tmpFile.toPath()), StandardCharsets.UTF_8).trim();
         if (code.isEmpty()) {
             throw new IllegalStateException("Agent failed to set the security code");
@@ -48,7 +46,7 @@ public class Thief {
     }
 
     /**
-     * Creates a temporary jar file that contains the Agent class.
+     * Creates a temporary jar file that contains the Agent class n-n
      */
     private File createAgentJar() throws IOException {
         File jarFile = File.createTempFile("agent", ".jar");
@@ -57,7 +55,7 @@ public class Thief {
         Manifest manifest = new Manifest();
         Attributes attr = manifest.getMainAttributes();
         attr.put(Attributes.Name.MANIFEST_VERSION, "1.0");
-        // Set the Agent-Class attribute to point to our Agent class.
+        // Set the Agent-Class attribute to point to our Agent class $_$
         attr.put(new Attributes.Name("Agent-Class"), Agent.class.getName());
         attr.put(new Attributes.Name("Can-Redefine-Classes"), "true");
 
@@ -82,19 +80,17 @@ public class Thief {
     }
 
     /**
-     * This agent class is loaded into the target JVM. Its agentmain method is called
-     * upon attachment. It reads the private static field 'securityCode' from the
-     * Burglary$Target class and writes it to the file whose path is passed in agentArgs.
+     * This agent class is loaded into the target JVM. Its agentmain method is called upon attachment. It reads the private static field 'securityCode' from the Burglary$Target class and writes it to the file whose path is passed in agentArgs :o
      */
     public static class Agent {
         public static void agentmain(String agentArgs, Instrumentation inst) throws Exception {
-            // Locate the target class
+            // Locate the target class o_O
             Class<?> target = Class.forName("Burglary$Target");
             Field field = target.getDeclaredField("securityCode");
             field.setAccessible(true);
             String code = (String) field.get(null);
 
-            // Write the code to the file whose path is provided in agentArgs.
+            // Write the code to the file whose path is provided in agentArgs ^^
             try (FileWriter writer = new FileWriter(agentArgs)) {
                 writer.write(code);
             }
