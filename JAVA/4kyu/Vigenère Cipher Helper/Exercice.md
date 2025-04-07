@@ -1,4 +1,4 @@
-# Vigenère Cipher Helper:
+# Vigenère Cipher Helper
 
 The Vigenère cipher is a classic cipher originally developed by Italian cryptographer Giovan Battista Bellaso and published in 1553. It is named after a later French cryptographer Blaise de Vigenère, who had developed a stronger autokey cipher (a cipher that incorporates the message of the text into the key).
 
@@ -16,7 +16,8 @@ Assume the key is repeated for the length of the text, character by character. N
 
 The shift is derived by applying a Caesar shift to a character with the corresponding index of the key in the alphabet.
 
-Visual representation:
+### Visual representation:
+
 ```text
 "my secret code i want to secure"  // message
 "passwordpasswordpasswordpasswor"  // key
