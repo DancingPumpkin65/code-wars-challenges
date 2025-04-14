@@ -19,13 +19,14 @@ Neither `[n]` nor `[1,1,1,…,1]` are valid solutions. If no valid solution exis
 
 The function "decompose" will take a positive integer n and return the decomposition of N = n² as:
 
-[x1 ... xk] or
-"x1 ... xk" or
-Just [x1 ... xk] or
-Some [x1 ... xk] or
-{x1 ... xk} or
-"[x1,x2, ... ,xk]"
-depending on the language (see "Sample tests")
+ - [x1 ... xk] or
+ - "x1 ... xk" or
+ - Just [x1 ... xk] or
+ - Some [x1 ... xk] or
+ - {x1 ... xk} or
+ - "[x1,x2, ... ,xk]"
+
+---
 
 ## Note for Bash:
 ```text
@@ -45,6 +46,6 @@ Very often `xk` will be `n-1`.
 public class Decompose {
 
   public String decompose(long n) {
-  
+    // Your code here
   }
 }
