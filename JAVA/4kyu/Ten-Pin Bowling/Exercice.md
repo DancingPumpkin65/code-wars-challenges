@@ -46,7 +46,7 @@ http://en.wikipedia.org/wiki/Ten-pin_bowling#Scoring
 
 ---
 
-## Functiond
+## Function Structure:
 ```java
 public class Solution {
     public static int bowling_score(String frames) {

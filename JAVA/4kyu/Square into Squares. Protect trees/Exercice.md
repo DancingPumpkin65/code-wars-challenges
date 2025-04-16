@@ -40,7 +40,7 @@ Very often `xk` will be `n-1`.
 
 ---
 
-## Functiond
+## Function Structure:
 ```java
 // If no valid solution exists return null
 public class Decompose {
